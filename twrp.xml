@@ -22,7 +22,7 @@
     name="android_bootable_recovery" 
     path="bootable/recovery"
     remote="twrp"
-    revision="android-6.0"
+    revision="android-6.0-mrom"
   />
 </manifest>
 
