@@ -20,4 +20,10 @@
    remote="twrp" 
    revision="twrp" 
   />
+<!-- Toolchain -->
+  <project
+   path="prebuilts/gcc/linux-x86/x86/x86_64-linux-android-4.9"
+   name="platform/prebuilts/gcc/linux-x86/x86/x86_64-linux-android-4.9"
+   groups="pdk,linux,x86"
+  />
 </manifest>
