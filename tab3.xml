@@ -5,13 +5,13 @@
    name="android_device_samsung_santos103g"
    path="device/samsung/santos103g"
    remote="twrp"
-   revision="twrp"
+   revision="android-6.0"
   />
   <project
    name="android_device_samsung_santos10-common"
    path="device/samsung/santos10-common"
    remote="twrp"
-   revision="twrp"
+   revision="android-6.0"
   />
   <!-- Kernel -->
   <project
