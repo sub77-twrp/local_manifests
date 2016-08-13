@@ -8,6 +8,12 @@
    revision="android-6.0"
   />
   <project
+   name="android_device_samsung_santos10lte"
+   path="device/samsung/santos10lte"
+   remote="twrp"
+   revision="android-6.0"
+  />
+  <project
    name="android_device_samsung_santos10-common"
    path="device/samsung/santos10-common"
    remote="twrp"
