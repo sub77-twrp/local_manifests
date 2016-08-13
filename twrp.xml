@@ -11,6 +11,7 @@
     revision="android-6.0"
   />
   <!-- Device -->
+  <remove-project name="lj50036/android_device_qcom_common" />
   <project 
     name="CaptainThrowback/android_device_qcom_common" 
     path="device/qcom/common"
@@ -18,6 +19,7 @@
     revision="android-6.0"
   />
   <!-- Recovery -->
+  <remove-project name="android_bootable_recovery" />
   <project 
     name="android_bootable_recovery" 
     path="bootable/recovery"
