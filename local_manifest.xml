@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+<remove-project name="android" remote="omnirom" revision="android-6.0"  />
+<remove-project name="device/generic/goldfish" groups="pdk"   />
+<remove-project name="platform/external/elfutils" groups="pdk"   />
+<remove-project name="android_external_exfat" remote="omnirom" revision="android-6.0"  />
+<remove-project name="android_external_f2fs-tools" remote="omnirom" revision="android-6.0" groups="pdk" />
+<remove-project name="android_external_fuse" remote="omnirom" revision="android-6.0"  />
+<remove-project name="platform/external/libnl" groups="pdk"   />
+<remove-project name="platform/external/libseccomp-helper" groups="pdk-cw-fs,pdk-fs"   />
+<remove-project name="platform/external/ltrace" groups="pdk-cw-fs,pdk-fs"   />
+<remove-project name="platform/external/lzma" groups="pdk"   />
+<remove-project name="platform/external/mksh" groups="pdk"   />
+<remove-project name="android_external_ntfs-3g" remote="omnirom" revision="android-6.0"  />
+<remove-project name="android_external_toybox" remote="omnirom" revision="android-6.0" groups="pdk" />
+<remove-project name="android_hardware_qcom_keymaster" remote="omnirom" revision="android-6.0" groups="qcom" />
+<remove-project name="platform/prebuilts/gcc/linux-x86/aarch64/aarch64-linux-android-4.9" groups="pdk,linux,arm"   />
+<remove-project name="platform/prebuilts/gcc/linux-x86/arm/arm-eabi-4.8" groups="pdk,linux,arm"   />
+<remove-project name="platform/system/keymaster" groups="pdk"   />
+<remove-project name="android_vendor_omni" remote="omnirom" revision="android-6.0"  />
+<remove-project name="CyanogenMod/android_hardware_qcom_audio" />
+<remove-project name="CyanogenMod/android_hardware_qcom_bt" />
+<remove-project name="CyanogenMod/android_hardware_qcom_display" />
+<remove-project name="CyanogenMod/android_hardware_qcom_media" />
+<remove-project name="CyanogenMod/android_hardware_qcom_wlan" />
+<remove-project name="CyanogenMod/android_hardware_ril" />
+<project path="external/busybox" name="CyanogenMod/android_external_busybox" revision="cm-13.0" />
+</manifest>
